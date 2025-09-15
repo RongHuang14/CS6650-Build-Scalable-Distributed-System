@@ -1,0 +1,15 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfvars
+.terraform.lock.hcl
+
+# Go build output
+/server
+
+# macOS system files
+.DS_Store
+
+# Binary installers or packages
+*.pkg
