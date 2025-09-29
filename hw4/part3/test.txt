@@ -1,0 +1,6 @@
+hello world hello world hello
+test test test
+mapreduce is awesome
+hello mapreduce
+test mapreduce awesome
+world world world
