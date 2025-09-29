@@ -1,8 +1,26 @@
+# reducer/Dockerfile
 # Build stage
-FROM golang:1.23-alpine AS builder
+FROM --platform=$BUILDPLATFORM golang:1.23-alpine AS builder
 WORKDIR /app
+
+# Enable static build by default
+ENV CGO_ENABLED=0
+
+# Target platform (provided by buildx)
+ARG TARGETOS
+ARG TARGETARCH
+
+# Copy go mod file
+COPY go.mod ./
+
+# Copy source code
 COPY main.go .
-RUN go build -o reducer main.go
+
+# Initialize go module and download dependencies
+RUN go mod tidy && go mod download
+
+# Build the application for the target platform
+RUN GOOS=$TARGETOS GOARCH=$TARGETARCH go build -o reducer main.go
 
 # Run stage
 FROM alpine:latest

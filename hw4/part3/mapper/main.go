@@ -1,19 +1,32 @@
+// mapper/main.go
 package main
 
 import (
+    "bytes"
     "encoding/json"
     "fmt"
+    "io"
     "net/http"
     "strings"
+    "time"
+    
+    "github.com/aws/aws-sdk-go/aws"
+    "github.com/aws/aws-sdk-go/aws/session"
+    "github.com/aws/aws-sdk-go/service/s3"
 )
 
-// MapRequest contains text chunk to process
-type MapRequest struct {
-    Text string `json:"text"`
+// S3MapRequest contains S3 URL of text chunk to process
+type S3MapRequest struct {
+    ChunkURL string `json:"chunk_url"`
 }
 
-// MapResponse contains word count results
-type MapResponse struct {
+// S3MapResponse contains S3 URL of the word count result
+type S3MapResponse struct {
+    ResultURL string `json:"result_url"`
+}
+
+// WordCountResult represents the word count output from mapper
+type WordCountResult struct {
     WordCount   map[string]int `json:"word_count"`
     TotalWords  int           `json:"total_words"`
     UniqueWords int           `json:"unique_words"`
@@ -29,8 +42,8 @@ func countWords(text string) map[string]int {
     
     // Count each word
     for _, word := range words {
-        // Clean punctuation (simple version)
-        word = strings.Trim(word, ".,!?;:")
+        // Clean punctuation (improved version)
+        word = strings.Trim(word, ".,!?;:\\\"'()[]{}—–-")
         if word != "" {
             wordCount[word]++
         }
@@ -39,17 +52,51 @@ func countWords(text string) map[string]int {
     return wordCount
 }
 
-// handleMap processes the map request
-func handleMap(w http.ResponseWriter, r *http.Request) {
+// handleS3Map processes the map request for S3-stored chunks
+func handleS3Map(w http.ResponseWriter, r *http.Request) {
     // Parse request
-    var req MapRequest
+    var req S3MapRequest
     if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
         http.Error(w, "Invalid request", http.StatusBadRequest)
         return
     }
     
+    // Parse S3 URL (format: s3://bucket/key)
+    parts := strings.Split(strings.TrimPrefix(req.ChunkURL, "s3://"), "/")
+    if len(parts) < 2 {
+        http.Error(w, "Invalid S3 URL format", http.StatusBadRequest)
+        return
+    }
+    bucket := parts[0]
+    key := strings.Join(parts[1:], "/")
+    
+    // Create S3 session
+    sess := session.Must(session.NewSession(&aws.Config{
+        Region: aws.String("us-west-2"),
+    }))
+    svc := s3.New(sess)
+    
+    // Download chunk from S3
+    fmt.Printf("Downloading chunk from s3://%s/%s\n", bucket, key)
+    result, err := svc.GetObject(&s3.GetObjectInput{
+        Bucket: aws.String(bucket),
+        Key:    aws.String(key),
+    })
+    if err != nil {
+        http.Error(w, fmt.Sprintf("Failed to download from S3: %v", err), http.StatusInternalServerError)
+        return
+    }
+    defer result.Body.Close()
+    
+    // Read chunk content
+    content, err := io.ReadAll(result.Body)
+    if err != nil {
+        http.Error(w, "Failed to read chunk content", http.StatusInternalServerError)
+        return
+    }
+    
     // Count words in the text chunk
-    wordCount := countWords(req.Text)
+    wordCount := countWords(string(content))
     
     // Calculate totals
     totalWords := 0
@@ -57,21 +104,52 @@ func handleMap(w http.ResponseWriter, r *http.Request) {
         totalWords += count
     }
     
-    // Send response
-    response := MapResponse{
+    // Create result object
+    mapResult := WordCountResult{
         WordCount:   wordCount,
         TotalWords:  totalWords,
         UniqueWords: len(wordCount),
     }
     
+    // Convert result to JSON
+    resultJSON, err := json.Marshal(mapResult)
+    if err != nil {
+        http.Error(w, "Failed to marshal result", http.StatusInternalServerError)
+        return
+    }
+    
+    // Generate unique key for result
+    timestamp := time.Now().Unix()
+    chunkName := strings.TrimSuffix(strings.Split(key, "/")[len(strings.Split(key, "/"))-1], ".txt")
+    resultKey := fmt.Sprintf("map-results/%d/%s_result.json", timestamp, chunkName)
+    
+    // Upload result to S3
+    fmt.Printf("Uploading result to s3://%s/%s\n", bucket, resultKey)
+    _, err = svc.PutObject(&s3.PutObjectInput{
+        Bucket:      aws.String(bucket),
+        Key:         aws.String(resultKey),
+        Body:        bytes.NewReader(resultJSON),
+        ContentType: aws.String("application/json"),
+    })
+    if err != nil {
+        http.Error(w, fmt.Sprintf("Failed to upload result: %v", err), http.StatusInternalServerError)
+        return
+    }
+    
+    // Send response with result URL
+    response := S3MapResponse{
+        ResultURL: fmt.Sprintf("s3://%s/%s", bucket, resultKey),
+    }
+    
     w.Header().Set("Content-Type", "application/json")
     json.NewEncoder(w).Encode(response)
+    fmt.Printf("Mapper completed successfully, result at: %s\n", response.ResultURL)
 }
 
 func main() {
     fmt.Println("Mapper service starting on port 8080...")
     
-    http.HandleFunc("/map", handleMap)
+    http.HandleFunc("/map-s3", handleS3Map)
     http.HandleFunc("/health", func(w http.ResponseWriter, r *http.Request) {
         w.Write([]byte("OK"))
     })
