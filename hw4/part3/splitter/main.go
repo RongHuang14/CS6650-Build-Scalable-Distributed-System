@@ -96,6 +96,8 @@ func handleSplit(w http.ResponseWriter, r *http.Request) {
 
 // handleS3Split processes S3-based split request
 func handleS3Split(w http.ResponseWriter, r *http.Request) {
+    startTime := time.Now()
+    
     var req S3SplitRequest
     if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
         http.Error(w, "Invalid request", http.StatusBadRequest)
@@ -122,6 +124,7 @@ func handleS3Split(w http.ResponseWriter, r *http.Request) {
     svc := s3.New(sess)
     
     // Download file from S3
+    downloadStart := time.Now()
     result, err := svc.GetObject(&s3.GetObjectInput{
         Bucket: aws.String(bucket),
         Key:    aws.String(key),
@@ -138,11 +141,16 @@ func handleS3Split(w http.ResponseWriter, r *http.Request) {
         http.Error(w, "Failed to read file", http.StatusInternalServerError)
         return
     }
+    fmt.Printf("[TIMING] Download: %.2f seconds\n", time.Since(downloadStart).Seconds())
+    fmt.Printf("[METRICS] File size: %d bytes (%.2f MB)\n", len(content), float64(len(content))/(1024*1024))
     
     // Split text using existing function
+    splitStart := time.Now()
     chunks := splitText(string(content), req.Chunks)
+    fmt.Printf("[TIMING] Split: %.2f seconds\n", time.Since(splitStart).Seconds())
     
     // Upload chunks to S3
+    uploadStart := time.Now()
     var chunkURLs []string
     timestamp := time.Now().Unix()
     
@@ -161,6 +169,10 @@ func handleS3Split(w http.ResponseWriter, r *http.Request) {
         
         chunkURLs = append(chunkURLs, fmt.Sprintf("s3://%s/%s", bucket, chunkKey))
     }
+    fmt.Printf("[TIMING] Upload chunks: %.2f seconds\n", time.Since(uploadStart).Seconds())
+    
+    fmt.Printf("[TIMING] TOTAL Split Time: %.2f seconds\n", time.Since(startTime).Seconds())
+    fmt.Printf("[METRICS] File: %s, Chunks created: %d\n", req.S3URL, len(chunks))
     
     response := S3SplitResponse{
         ChunkURLs: chunkURLs,

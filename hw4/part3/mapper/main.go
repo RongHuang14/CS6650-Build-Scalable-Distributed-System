@@ -54,6 +54,8 @@ func countWords(text string) map[string]int {
 
 // handleS3Map processes the map request for S3-stored chunks
 func handleS3Map(w http.ResponseWriter, r *http.Request) {
+    startTime := time.Now()
+    
     // Parse request
     var req S3MapRequest
     if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
@@ -77,6 +79,7 @@ func handleS3Map(w http.ResponseWriter, r *http.Request) {
     svc := s3.New(sess)
     
     // Download chunk from S3
+    downloadStart := time.Now()
     fmt.Printf("Downloading chunk from s3://%s/%s\n", bucket, key)
     result, err := svc.GetObject(&s3.GetObjectInput{
         Bucket: aws.String(bucket),
@@ -94,9 +97,13 @@ func handleS3Map(w http.ResponseWriter, r *http.Request) {
         http.Error(w, "Failed to read chunk content", http.StatusInternalServerError)
         return
     }
+    fmt.Printf("[TIMING] Download chunk: %.2f seconds\n", time.Since(downloadStart).Seconds())
+    fmt.Printf("[METRICS] Chunk size: %d bytes (%.2f MB)\n", len(content), float64(len(content))/(1024*1024)) 
     
     // Count words in the text chunk
+    processStart := time.Now()
     wordCount := countWords(string(content))
+    fmt.Printf("[TIMING] Process words: %.2f seconds\n", time.Since(processStart).Seconds())
     
     // Calculate totals
     totalWords := 0
@@ -124,6 +131,7 @@ func handleS3Map(w http.ResponseWriter, r *http.Request) {
     resultKey := fmt.Sprintf("map-results/%d/%s_result.json", timestamp, chunkName)
     
     // Upload result to S3
+    uploadStart := time.Now()
     fmt.Printf("Uploading result to s3://%s/%s\n", bucket, resultKey)
     _, err = svc.PutObject(&s3.PutObjectInput{
         Bucket:      aws.String(bucket),
@@ -135,6 +143,10 @@ func handleS3Map(w http.ResponseWriter, r *http.Request) {
         http.Error(w, fmt.Sprintf("Failed to upload result: %v", err), http.StatusInternalServerError)
         return
     }
+    fmt.Printf("[TIMING] Upload result: %.2f seconds\n", time.Since(uploadStart).Seconds())
+    
+    fmt.Printf("[TIMING] TOTAL Map Time: %.2f seconds\n", time.Since(startTime).Seconds())
+    fmt.Printf("[METRICS] Words processed: %d unique, %d total\n", len(wordCount), totalWords)
     
     // Send response with result URL
     response := S3MapResponse{
