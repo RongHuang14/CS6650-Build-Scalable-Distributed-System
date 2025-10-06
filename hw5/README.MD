@@ -176,6 +176,38 @@ Import the `CS6650-HW5.postman_collection.json` file into Postman to run all API
 - Add Product - Not Found (404)
 - Add Product - Server Error (500)
 
+###  API Testing Screenshots
+
+#### Postman Test Results
+
+All API endpoints have been tested using Postman. The collection includes tests for all response codes:
+
+#### GET Endpoint Tests
+- **Health Check**
+  ![Health Check](screenshot/part2/postman_test_health.png)
+  
+- **GET 200 - Success**
+  ![GET 200](screenshot/part2/postman_test_get_200.png)
+  
+- **GET 404 - Not Found**
+  ![GET 404](screenshot/part2/postman_test_get_404.png)
+  
+- **GET 500 - Server Error**
+  ![GET 500](screenshot/part2/postman_test_get_500.png)
+
+#### POST Endpoint Tests  
+- **POST 204 - Success**
+  ![POST 204](screenshot/part2/postman_test_post_204.png)
+  
+- **POST 400 - ID Mismatch**
+  ![POST 400](screenshot/part2/postman_test_post_400.png)
+  
+- **POST 404 - Not Found**
+  ![POST 404](screenshot/part2/postman_test_add_404.png)
+  
+- **POST 500 - Server Error**
+  ![POST 500](screenshot/part2/postman_test_post_500.png)
+
 ## Load Testing
 
 Run Locust tests to compare HttpUser vs FastHttpUser performance:
