@@ -10,16 +10,19 @@ variable "ecr_repository_name" {
   default = "python-product-api"
 }
 
+# Name for ECS service and related resources
 variable "service_name" {
   type    = string
   default = "CS6650L2-Python"
 }
 
+# API Port
 variable "container_port" {
   type    = number
   default = 8080
 }
 
+# Number of container instances to run
 variable "ecs_count" {
   type    = number
   default = 1

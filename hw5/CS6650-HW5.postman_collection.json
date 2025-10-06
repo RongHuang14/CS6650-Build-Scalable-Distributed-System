@@ -18,7 +18,19 @@
 			"name": "Get Product - 200",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/products/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"products",
+						"1"
+					]
+				}
 			},
 			"response": []
 		},
@@ -26,7 +38,39 @@
 			"name": "Get Product - 404",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/products/999",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"products",
+						"999"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Product - 500",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/products/500",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"products",
+						"500"
+					]
+				}
 			},
 			"response": []
 		},
@@ -84,6 +128,66 @@
 					"path": [
 						"products",
 						"4",
+						"details"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Product - 404",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"product_id\": 404, \"sku\": \"TEST-404\", \"manufacturer\": \"Test Corp\", \"category_id\": 1, \"weight\": 500, \"some_other_id\": 404}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/products/404/details",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"products",
+						"404",
+						"details"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Product - 500",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"product_id\": 500, \"sku\": \"ERROR-TRIGGER\", \"manufacturer\": \"Test Corp\", \"category_id\": 1, \"weight\": 100, \"some_other_id\": 500}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/products/500/details",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"products",
+						"500",
 						"details"
 					]
 				}

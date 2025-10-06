@@ -95,24 +95,37 @@ terraform destroy -auto-approve
 
 ## API Testing
 
+### Test Triggers
+For demonstration purposes, the API includes test triggers:
+- **ID=500**: Triggers 500 Internal Server Error (both GET and POST)
+- **ID=404**: Triggers 404 Not Found for POST endpoint
+
+These triggers are for testing only and would not exist in production.
+
 ### Using curl
 
 Health Check:
 ```bash
 curl http://localhost:8080/health
-# Response: {"status": "healthy", "products_count": 2}
+# Response: {"status": "healthy", "products_count": 2, "note": "Test triggers: ID=500 for 500 error, ID=404 for POST 404 error"}
 ```
 
 Get Product (200 OK):
 ```bash
 curl http://localhost:8080/products/1
-# Response: {"product_id": 1, "sku": "LAPTOP-001", ...}
+# Response: {"product_id": 1, "sku": "LAPTOP-001", "manufacturer": "Dell", "category_id": 1, "weight": 2500, "some_other_id": 101}
 ```
 
 Get Product (404 Not Found):
 ```bash
 curl http://localhost:8080/products/999
-# Response: {"error": "PRODUCT_NOT_FOUND", "message": "Product with ID 999 not found"}
+# Response: {"detail": {"error": "PRODUCT_NOT_FOUND", "message": "Product with ID 999 not found"}}
+```
+
+Get Product (500 Server Error):
+```bash
+curl http://localhost:8080/products/500
+# Response: {"detail": {"error": "INTERNAL_SERVER_ERROR", "message": "Simulated server error for testing (ID=500)"}}
 ```
 
 Add Product (204 No Content):
@@ -128,17 +141,40 @@ Add Product with ID Mismatch (400 Bad Request):
 curl -X POST http://localhost:8080/products/4/details \
   -H "Content-Type: application/json" \
   -d '{"product_id": 5, "sku": "ERROR", "manufacturer": "Test", "category_id": 1, "weight": 100, "some_other_id": 1}'
-# Response: {"error": "ID_MISMATCH", "message": "Product ID in path does not match request body"}
+# Response: {"detail": {"error": "ID_MISMATCH", "message": "Product ID in path does not match request body", "details": "Path ID: 4, Body ID: 5"}}
+```
+
+Add Product Not Found (404):
+```bash
+curl -X POST http://localhost:8080/products/404/details \
+  -H "Content-Type: application/json" \
+  -d '{"product_id": 404, "sku": "TEST-404", "manufacturer": "Test Corp", "category_id": 1, "weight": 500, "some_other_id": 404}'
+# Response: {"detail": {"error": "PRODUCT_NOT_FOUND", "message": "Product must be created before adding details (test case)"}}
+```
+
+Add Product Server Error (500):
+```bash
+curl -X POST http://localhost:8080/products/500/details \
+  -H "Content-Type: application/json" \
+  -d '{"product_id": 500, "sku": "ERROR-TRIGGER", "manufacturer": "Test Corp", "category_id": 1, "weight": 100, "some_other_id": 500}'
+# Response: {"detail": {"error": "INTERNAL_SERVER_ERROR", "message": "Simulated server error for testing (ID=500)"}}
 ```
 
 ### Using Postman
 
-Import the `CS6650-HW5.postman_collection.json` file into Postman to run all API tests. The collection includes:
+Import the `CS6650-HW5.postman_collection.json` file into Postman to run all API tests. The collection includes all response codes:
+
+**GET /products/{productId}:**
 - Health Check endpoint
 - Get Product - Success (200)
 - Get Product - Not Found (404)
+- Get Product - Server Error (500)
+
+**POST /products/{productId}/details:**
 - Add Product - Success (204)
 - Add Product - ID Mismatch (400)
+- Add Product - Not Found (404)
+- Add Product - Server Error (500)
 
 ## Load Testing
 
