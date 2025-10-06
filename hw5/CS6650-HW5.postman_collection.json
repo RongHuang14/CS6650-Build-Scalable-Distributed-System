@@ -1,0 +1,94 @@
+{
+	"info": {
+		"_postman_id": "5b8d6254-3ca3-4ab5-908b-1ab40dabf546",
+		"name": "CS6650-HW5",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37488902"
+	},
+	"item": [
+		{
+			"name": "health_check",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get Product - 200",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get Product - 404",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Add Product - 204",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 3,\n    \"sku\": \"TEST-003\",\n    \"manufacturer\": \"Test Corp\",\n    \"category_id\": 1,\n    \"weight\": 500,\n    \"some_other_id\": 103\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/products/3/details",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"products",
+						"3",
+						"details"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Product - 400",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 5,\n    \"sku\": \"ERROR-TEST\",\n    \"manufacturer\": \"Test\",\n    \"category_id\": 1,\n    \"weight\": 100,\n    \"some_other_id\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/products/4/details",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"products",
+						"4",
+						"details"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
