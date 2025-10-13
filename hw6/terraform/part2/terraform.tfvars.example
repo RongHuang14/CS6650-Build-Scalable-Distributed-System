@@ -1,0 +1,17 @@
+# AWS Configuration
+aws_region = "us-west-2"
+
+# Project Configuration
+project_name = "hw6-part2"
+
+# Container Configuration
+container_name  = "product-search"
+# IMPORTANT: Replace with your ECR image URI
+# Example: 123456789012.dkr.ecr.us-west-2.amazonaws.com/hw6-product-search:latest
+container_image = "YOUR_ECR_IMAGE_URI_HERE"
+container_port  = 8080
+
+# Task Configuration (Part 2 Requirements)
+task_cpu    = "256"  # 0.25 vCPU - DO NOT CHANGE
+task_memory = "512"  # 512 MB - DO NOT CHANGE
+
