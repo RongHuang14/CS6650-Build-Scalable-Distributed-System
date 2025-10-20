@@ -1,0 +1,757 @@
+[2025-10-20 07:44:47,736] Reginas-macbook.local/WARNING/locust.main: Python 3.8 support is deprecated and will be removed soon
+[2025-10-20 07:44:47,737] Reginas-macbook.local/INFO/locust.main: Starting web interface at http://0.0.0.0:8089
+[2025-10-20 07:44:47,747] Reginas-macbook.local/INFO/locust.main: Starting Locust 2.25.0
+[2025-10-20 07:45:11,624] Reginas-macbook.local/INFO/locust.runners: Ramping to 50 users at a rate of 2.00 per second
+[2025-10-20 07:45:11,626] Reginas-macbook.local/INFO/locustfile: User user_949 started - Testing fixed version(s)
+[2025-10-20 07:45:11,627] Reginas-macbook.local/INFO/locustfile: User user_1000 started - Testing fixed version(s)
+[2025-10-20 07:45:12,631] Reginas-macbook.local/INFO/locustfile: User user_398 started - Testing fixed version(s)
+[2025-10-20 07:45:12,633] Reginas-macbook.local/INFO/locustfile: User user_847 started - Testing fixed version(s)
+[2025-10-20 07:45:13,633] Reginas-macbook.local/INFO/locustfile: User user_818 started - Testing fixed version(s)
+[2025-10-20 07:45:13,634] Reginas-macbook.local/INFO/locustfile: User user_486 started - Testing fixed version(s)
+[2025-10-20 07:45:14,638] Reginas-macbook.local/INFO/locustfile: User user_749 started - Testing fixed version(s)
+[2025-10-20 07:45:14,639] Reginas-macbook.local/INFO/locustfile: User user_638 started - Testing fixed version(s)
+[2025-10-20 07:45:15,268] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:45:15,641] Reginas-macbook.local/INFO/locustfile: User user_378 started - Testing fixed version(s)
+[2025-10-20 07:45:15,641] Reginas-macbook.local/INFO/locustfile: User user_692 started - Testing fixed version(s)
+[2025-10-20 07:45:15,978] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:45:16,267] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:45:16,643] Reginas-macbook.local/WARNING/locustfile: Admin user initialized - Can control product service state
+[2025-10-20 07:45:16,644] Reginas-macbook.local/INFO/locustfile: User user_683 started - Testing fixed version(s)
+[2025-10-20 07:45:16,656] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:45:17,154] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:45:17,646] Reginas-macbook.local/INFO/locustfile: User user_857 started - Testing fixed version(s)
+[2025-10-20 07:45:17,647] Reginas-macbook.local/INFO/locustfile: User user_190 started - Testing fixed version(s)
+[2025-10-20 07:45:18,650] Reginas-macbook.local/INFO/locustfile: User user_235 started - Testing fixed version(s)
+[2025-10-20 07:45:18,652] Reginas-macbook.local/INFO/locustfile: User user_473 started - Testing fixed version(s)
+[2025-10-20 07:45:19,035] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:45:19,059] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:45:19,655] Reginas-macbook.local/INFO/locustfile: User user_454 started - Testing fixed version(s)
+[2025-10-20 07:45:19,655] Reginas-macbook.local/INFO/locustfile: User user_35 started - Testing fixed version(s)
+[2025-10-20 07:45:19,853] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:45:19,854] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:45:20,659] Reginas-macbook.local/INFO/locustfile: User user_663 started - Testing fixed version(s)
+[2025-10-20 07:45:20,661] Reginas-macbook.local/INFO/locustfile: User user_94 started - Testing fixed version(s)
+[2025-10-20 07:45:20,666] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:45:20,666] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:45:20,763] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:45:21,664] Reginas-macbook.local/INFO/locustfile: User user_820 started - Testing fixed version(s)
+[2025-10-20 07:45:21,665] Reginas-macbook.local/INFO/locustfile: User user_740 started - Testing fixed version(s)
+[2025-10-20 07:45:21,678] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:45:21,678] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:45:21,679] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:45:22,670] Reginas-macbook.local/INFO/locustfile: User user_757 started - Testing fixed version(s)
+[2025-10-20 07:45:22,671] Reginas-macbook.local/INFO/locustfile: User user_550 started - Testing fixed version(s)
+[2025-10-20 07:45:23,671] Reginas-macbook.local/INFO/locustfile: User user_795 started - Testing fixed version(s)
+[2025-10-20 07:45:23,673] Reginas-macbook.local/INFO/locustfile: User user_342 started - Testing fixed version(s)
+[2025-10-20 07:45:23,765] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:45:23,877] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:45:24,665] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:45:24,665] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:45:24,671] Reginas-macbook.local/INFO/locustfile: User user_761 started - Testing fixed version(s)
+[2025-10-20 07:45:24,672] Reginas-macbook.local/INFO/locustfile: User user_165 started - Testing fixed version(s)
+[2025-10-20 07:45:25,674] Reginas-macbook.local/INFO/locustfile: User user_230 started - Testing fixed version(s)
+[2025-10-20 07:45:25,675] Reginas-macbook.local/INFO/locustfile: User user_825 started - Testing fixed version(s)
+[2025-10-20 07:45:26,679] Reginas-macbook.local/WARNING/locustfile: Admin user initialized - Can control product service state
+[2025-10-20 07:45:26,679] Reginas-macbook.local/INFO/locustfile: User user_961 started - Testing fixed version(s)
+[2025-10-20 07:45:26,973] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:45:26,973] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:45:27,685] Reginas-macbook.local/INFO/locustfile: User user_919 started - Testing fixed version(s)
+[2025-10-20 07:45:27,686] Reginas-macbook.local/INFO/locustfile: User user_248 started - Testing fixed version(s)
+[2025-10-20 07:45:28,156] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:45:28,687] Reginas-macbook.local/INFO/locustfile: User user_972 started - Testing fixed version(s)
+[2025-10-20 07:45:28,688] Reginas-macbook.local/INFO/locustfile: User user_248 started - Testing fixed version(s)
+[2025-10-20 07:45:29,692] Reginas-macbook.local/INFO/locustfile: User user_687 started - Testing fixed version(s)
+[2025-10-20 07:45:29,693] Reginas-macbook.local/INFO/locustfile: User user_710 started - Testing fixed version(s)
+[2025-10-20 07:45:29,762] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:45:29,762] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:45:29,856] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:45:29,857] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:45:30,698] Reginas-macbook.local/INFO/locustfile: User user_154 started - Testing fixed version(s)
+[2025-10-20 07:45:30,699] Reginas-macbook.local/INFO/locustfile: User user_383 started - Testing fixed version(s)
+[2025-10-20 07:45:30,755] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:45:30,756] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:45:31,073] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:45:31,701] Reginas-macbook.local/INFO/locustfile: User user_784 started - Testing fixed version(s)
+[2025-10-20 07:45:31,702] Reginas-macbook.local/INFO/locustfile: User user_856 started - Testing fixed version(s)
+[2025-10-20 07:45:32,706] Reginas-macbook.local/INFO/locustfile: User user_479 started - Testing fixed version(s)
+[2025-10-20 07:45:32,707] Reginas-macbook.local/INFO/locustfile: User user_561 started - Testing fixed version(s)
+[2025-10-20 07:45:33,351] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:45:33,352] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:45:33,712] Reginas-macbook.local/INFO/locustfile: User user_663 started - Testing fixed version(s)
+[2025-10-20 07:45:33,714] Reginas-macbook.local/INFO/locustfile: User user_135 started - Testing fixed version(s)
+[2025-10-20 07:45:33,860] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:45:33,860] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:45:33,860] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:45:34,719] Reginas-macbook.local/INFO/locustfile: User user_513 started - Testing fixed version(s)
+[2025-10-20 07:45:34,721] Reginas-macbook.local/INFO/locustfile: User user_726 started - Testing fixed version(s)
+[2025-10-20 07:45:35,720] Reginas-macbook.local/INFO/locust.runners: All users spawned: {"AdminUser": 2, "EcommerceUser": 48} (50 total users)
+[2025-10-20 07:45:35,720] Reginas-macbook.local/INFO/locustfile: User user_235 started - Testing fixed version(s)
+[2025-10-20 07:45:35,722] Reginas-macbook.local/INFO/locustfile: User user_11 started - Testing fixed version(s)
+[2025-10-20 07:45:36,558] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:45:36,757] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:45:36,764] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:45:37,666] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:37,676] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:37,676] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:37,757] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:37,766] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:37,766] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:37,772] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:37,853] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:37,873] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:37,873] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:37,874] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:38,072] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:38,075] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:38,075] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:38,075] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:38,075] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:38,076] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:38,076] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:38,076] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:38,076] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:38,076] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:38,076] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:38,076] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:38,076] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:38,077] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:38,163] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:38,163] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:38,163] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:38,164] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:38,166] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:38,167] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:38,170] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:38,170] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:38,171] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:38,171] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:38,171] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:38,172] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:38,175] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:38,639] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:38,828] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:38,869] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:38,904] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:38,961] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:39,381] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:39,802] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:40,035] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:40,115] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:45:40,606] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:46:10,277] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:46:10,277] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:46:10,278] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:46:11,865] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:46:12,158] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:46:13,059] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:46:13,070] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:46:13,096] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:46:14,565] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:46:15,411] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:46:44,361] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: HALF_OPEN
+[2025-10-20 07:46:44,573] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:46:44,754] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:46:44,946] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:46:45,148] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:46:45,443] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:46:45,551] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:46:45,958] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:46:46,171] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:46:46,256] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:46:46,547] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:46:46,744] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:46:47,264] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:46:47,266] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:46:47,756] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:46:48,470] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:46:48,753] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:46:49,149] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:46:51,862] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:46:52,157] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:46:52,966] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:46:53,145] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:46:53,649] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:46:54,646] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:46:55,354] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:46:56,247] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:46:58,581] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:46:59,170] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:47:03,246] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:47:03,247] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:47:03,454] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:47:03,865] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:47:07,046] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:47:07,046] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:47:07,363] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:47:07,943] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:47:09,465] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:47:12,955] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:47:16,480] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:47:17,455] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:47:19,644] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:47:20,555] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:47:22,954] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:47:26,753] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:47:26,950] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:47:28,642] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:47:43,741] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:47:48,350] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:47:54,942] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:48:41,028] Reginas-macbook.local/INFO/locust.runners: Ramping to 50 users at a rate of 2.00 per second
+[2025-10-20 07:48:41,031] Reginas-macbook.local/INFO/locustfile: User user_490 started - Testing fixed version(s)
+[2025-10-20 07:48:41,032] Reginas-macbook.local/INFO/locustfile: User user_759 started - Testing fixed version(s)
+[2025-10-20 07:48:42,031] Reginas-macbook.local/INFO/locustfile: User user_797 started - Testing fixed version(s)
+[2025-10-20 07:48:42,033] Reginas-macbook.local/INFO/locustfile: User user_788 started - Testing fixed version(s)
+[2025-10-20 07:48:43,036] Reginas-macbook.local/INFO/locustfile: User user_516 started - Testing fixed version(s)
+[2025-10-20 07:48:43,037] Reginas-macbook.local/INFO/locustfile: User user_163 started - Testing fixed version(s)
+[2025-10-20 07:48:44,039] Reginas-macbook.local/INFO/locustfile: User user_644 started - Testing fixed version(s)
+[2025-10-20 07:48:44,040] Reginas-macbook.local/INFO/locustfile: User user_578 started - Testing fixed version(s)
+[2025-10-20 07:48:45,039] Reginas-macbook.local/INFO/locustfile: User user_420 started - Testing fixed version(s)
+[2025-10-20 07:48:45,041] Reginas-macbook.local/INFO/locustfile: User user_273 started - Testing fixed version(s)
+[2025-10-20 07:48:45,165] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:48:45,167] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:48:45,947] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:48:45,947] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:48:46,040] Reginas-macbook.local/WARNING/locustfile: Admin user initialized - Can control product service state
+[2025-10-20 07:48:46,041] Reginas-macbook.local/INFO/locustfile: User user_237 started - Testing fixed version(s)
+[2025-10-20 07:48:47,044] Reginas-macbook.local/INFO/locustfile: User user_520 started - Testing fixed version(s)
+[2025-10-20 07:48:47,045] Reginas-macbook.local/INFO/locustfile: User user_480 started - Testing fixed version(s)
+[2025-10-20 07:48:48,045] Reginas-macbook.local/INFO/locustfile: User user_512 started - Testing fixed version(s)
+[2025-10-20 07:48:48,045] Reginas-macbook.local/INFO/locustfile: User user_327 started - Testing fixed version(s)
+[2025-10-20 07:48:48,139] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:48:48,139] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:48:48,260] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:48:48,566] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:48:49,047] Reginas-macbook.local/INFO/locustfile: User user_363 started - Testing fixed version(s)
+[2025-10-20 07:48:49,048] Reginas-macbook.local/INFO/locustfile: User user_443 started - Testing fixed version(s)
+[2025-10-20 07:48:49,245] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:48:49,245] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:48:49,952] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:48:50,049] Reginas-macbook.local/INFO/locustfile: User user_664 started - Testing fixed version(s)
+[2025-10-20 07:48:50,050] Reginas-macbook.local/INFO/locustfile: User user_355 started - Testing fixed version(s)
+[2025-10-20 07:48:51,051] Reginas-macbook.local/INFO/locustfile: User user_452 started - Testing fixed version(s)
+[2025-10-20 07:48:51,053] Reginas-macbook.local/INFO/locustfile: User user_864 started - Testing fixed version(s)
+[2025-10-20 07:48:51,140] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:48:51,142] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:48:52,054] Reginas-macbook.local/INFO/locustfile: User user_787 started - Testing fixed version(s)
+[2025-10-20 07:48:52,055] Reginas-macbook.local/INFO/locustfile: User user_703 started - Testing fixed version(s)
+[2025-10-20 07:48:53,055] Reginas-macbook.local/INFO/locustfile: User user_882 started - Testing fixed version(s)
+[2025-10-20 07:48:53,056] Reginas-macbook.local/INFO/locustfile: User user_599 started - Testing fixed version(s)
+[2025-10-20 07:48:54,058] Reginas-macbook.local/INFO/locustfile: User user_699 started - Testing fixed version(s)
+[2025-10-20 07:48:54,059] Reginas-macbook.local/INFO/locustfile: User user_915 started - Testing fixed version(s)
+[2025-10-20 07:48:54,544] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:48:54,544] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:48:55,057] Reginas-macbook.local/INFO/locustfile: User user_675 started - Testing fixed version(s)
+[2025-10-20 07:48:55,058] Reginas-macbook.local/INFO/locustfile: User user_596 started - Testing fixed version(s)
+[2025-10-20 07:48:55,545] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:48:55,546] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:48:56,108] Reginas-macbook.local/WARNING/locustfile: Admin user initialized - Can control product service state
+[2025-10-20 07:48:56,111] Reginas-macbook.local/INFO/locustfile: User user_723 started - Testing fixed version(s)
+[2025-10-20 07:48:56,858] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:48:56,859] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:48:57,065] Reginas-macbook.local/INFO/locustfile: User user_794 started - Testing fixed version(s)
+[2025-10-20 07:48:57,066] Reginas-macbook.local/INFO/locustfile: User user_814 started - Testing fixed version(s)
+[2025-10-20 07:48:57,239] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:48:57,749] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:48:58,051] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:48:58,056] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:48:58,067] Reginas-macbook.local/INFO/locustfile: User user_620 started - Testing fixed version(s)
+[2025-10-20 07:48:58,068] Reginas-macbook.local/INFO/locustfile: User user_405 started - Testing fixed version(s)
+[2025-10-20 07:48:59,072] Reginas-macbook.local/INFO/locustfile: User user_426 started - Testing fixed version(s)
+[2025-10-20 07:48:59,073] Reginas-macbook.local/INFO/locustfile: User user_381 started - Testing fixed version(s)
+[2025-10-20 07:49:00,073] Reginas-macbook.local/INFO/locustfile: User user_397 started - Testing fixed version(s)
+[2025-10-20 07:49:00,075] Reginas-macbook.local/INFO/locustfile: User user_818 started - Testing fixed version(s)
+[2025-10-20 07:49:00,142] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:49:00,615] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:49:00,616] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:49:00,616] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:49:00,925] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:49:01,077] Reginas-macbook.local/INFO/locustfile: User user_462 started - Testing fixed version(s)
+[2025-10-20 07:49:01,077] Reginas-macbook.local/INFO/locustfile: User user_545 started - Testing fixed version(s)
+[2025-10-20 07:49:02,055] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:49:02,056] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:49:02,081] Reginas-macbook.local/INFO/locustfile: User user_199 started - Testing fixed version(s)
+[2025-10-20 07:49:02,082] Reginas-macbook.local/INFO/locustfile: User user_517 started - Testing fixed version(s)
+[2025-10-20 07:49:03,085] Reginas-macbook.local/INFO/locustfile: User user_607 started - Testing fixed version(s)
+[2025-10-20 07:49:03,085] Reginas-macbook.local/INFO/locustfile: User user_910 started - Testing fixed version(s)
+[2025-10-20 07:49:03,755] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:49:03,757] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:49:04,087] Reginas-macbook.local/INFO/locustfile: User user_807 started - Testing fixed version(s)
+[2025-10-20 07:49:04,088] Reginas-macbook.local/INFO/locustfile: User user_62 started - Testing fixed version(s)
+[2025-10-20 07:49:04,360] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:49:04,558] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:49:05,090] Reginas-macbook.local/INFO/locust.runners: All users spawned: {"AdminUser": 2, "EcommerceUser": 48} (50 total users)
+[2025-10-20 07:49:05,090] Reginas-macbook.local/INFO/locustfile: User user_624 started - Testing fixed version(s)
+[2025-10-20 07:49:05,091] Reginas-macbook.local/INFO/locustfile: User user_262 started - Testing fixed version(s)
+[2025-10-20 07:49:06,832] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:49:06,832] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:49:06,833] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:49:07,583] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:49:07,583] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:49:07,754] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:49:08,054] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:49:08,055] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:49:08,555] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:49:11,152] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:49:11,473] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:49:11,473] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:49:22,754] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:49:26,341] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:26,341] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:26,341] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:26,356] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:26,356] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:26,465] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:26,465] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:26,557] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:26,560] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:26,560] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:26,560] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:26,561] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:26,561] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:26,561] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:26,659] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:26,659] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:26,659] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:26,665] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:26,666] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:26,746] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:26,746] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:26,749] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:26,749] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:26,749] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:26,749] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:26,749] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:26,749] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:26,751] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:26,751] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:26,751] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:27,604] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:27,658] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:27,761] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:27,770] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:27,789] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:27,850] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:27,858] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:28,037] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:28,074] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:28,118] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:28,118] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:28,302] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:28,348] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:28,392] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:28,638] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:28,879] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:30,298] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:30,515] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:49:57,658] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:49:57,845] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:49:57,965] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:49:58,142] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:49:58,349] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:49:58,839] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:49:59,365] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:49:59,451] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:49:59,651] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:49:59,651] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:50:00,361] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:50:00,362] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:50:00,842] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:50:00,952] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:50:01,753] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:50:02,044] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:50:02,251] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:50:02,371] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:50:02,373] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:50:02,752] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:50:03,161] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:50:03,162] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:50:03,644] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:50:07,655] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:50:10,941] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:50:10,945] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:50:12,154] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:50:12,849] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:50:13,267] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:50:13,544] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:50:14,143] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:50:14,858] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:50:21,143] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:50:25,348] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:50:25,348] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:50:27,146] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:50:28,250] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:50:29,259] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:50:33,774] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:50:33,775] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:50:34,770] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:50:35,365] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:50:35,954] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:50:40,662] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:50:41,342] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:50:42,270] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:50:42,271] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:50:46,963] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:46,966] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:47,066] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:47,066] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:47,066] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:47,066] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:47,157] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:47,157] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:47,160] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:47,160] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:47,160] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:47,161] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:47,161] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:47,161] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:47,161] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:47,161] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:47,550] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:47,619] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:47,695] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:47,742] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:47,825] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:47,865] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:47,940] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:47,941] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:47,946] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:48,037] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:48,132] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:48,141] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:48,299] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:48,379] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:48,493] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:48,502] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:48,628] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:48,676] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:48,726] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:48,736] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:48,756] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:48,939] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:48,963] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:49,016] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:49,061] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:49,754] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:49,981] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:50,087] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:50,223] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:51,502] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:50:51,966] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:51:18,352] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:18,452] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:18,452] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:18,452] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:18,642] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:19,066] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:19,553] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:20,553] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:22,345] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:22,443] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:22,464] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:22,550] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:22,659] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:22,856] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:22,944] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:22,944] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:23,044] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:23,146] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:23,843] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:25,069] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:26,050] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:26,251] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:26,750] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:27,254] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:28,668] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:29,364] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:29,365] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:29,574] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:29,962] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:31,558] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:32,550] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:34,581] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:34,769] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:35,453] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:36,366] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:37,059] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:38,452] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:42,354] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:44,540] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:45,857] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:46,651] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:58,451] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:59,064] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:51:59,065] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:52:03,146] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:52:04,258] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:52:18,649] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:52:55,248] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:03,268] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:03,550] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:03,647] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:03,755] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:03,755] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:03,755] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:03,843] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:03,844] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:03,845] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:03,846] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:03,846] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:03,846] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:03,846] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:03,846] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:03,860] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:03,861] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:03,862] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:03,862] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:03,862] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:04,042] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:04,279] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:04,289] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:04,301] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:04,316] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:04,491] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:04,523] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:04,545] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:04,582] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:04,584] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:04,660] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:04,689] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:04,814] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:04,910] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:04,934] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:05,013] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:05,070] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:05,070] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:05,083] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:05,109] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:05,290] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:05,377] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:05,401] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:05,806] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:05,923] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:06,317] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:06,653] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:06,719] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:07,000] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:54:34,745] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: HALF_OPEN
+[2025-10-20 07:54:34,852] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:35,448] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:35,548] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:35,747] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:35,847] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:36,548] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:36,647] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:37,467] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:37,950] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:38,355] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:38,356] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:38,466] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:38,666] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:38,666] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:40,749] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:40,962] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:41,640] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:41,847] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:42,338] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:42,643] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:43,443] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:43,738] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:44,155] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:44,650] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:46,141] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:46,543] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:46,754] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:46,964] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:47,256] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:48,054] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:48,750] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:49,557] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:49,558] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:49,748] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:50,538] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:51,051] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:51,257] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:51,649] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:51,950] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:53,044] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:58,939] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:54:58,941] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:55:03,556] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:55:07,061] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:55:26,654] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:55:32,860] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:55:38,458] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:38,995] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:38,996] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:38,996] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:38,999] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:38,999] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:38,999] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:38,999] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:39,000] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:39,000] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:39,000] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:39,000] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:39,000] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:39,000] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:39,000] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:39,000] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:39,001] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:39,001] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:39,043] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:39,043] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:39,051] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:39,051] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:39,051] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:39,052] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:39,052] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:39,052] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:39,052] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:39,052] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:39,052] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:39,744] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:39,878] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:39,943] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:39,963] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:40,036] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:40,388] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:40,438] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:40,463] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:40,464] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:40,536] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:40,540] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:40,561] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:40,710] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:40,793] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:40,933] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:40,993] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:55:41,900] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:56:10,353] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:10,451] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:10,452] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:10,857] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:11,261] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:11,673] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:11,846] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:12,042] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:12,341] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:12,857] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:13,439] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:13,540] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:13,757] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:14,048] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:14,243] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:14,441] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:14,663] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:15,362] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:15,553] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:17,249] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:17,744] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:17,744] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:18,549] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:19,156] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:20,241] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:20,242] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:21,557] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:22,263] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:22,457] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:22,565] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:22,954] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:24,951] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:25,141] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:27,850] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:28,744] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:32,855] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:33,409] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:40,251] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:48,840] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:51,255] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:54,248] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:54,447] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:54,447] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:54,454] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:54,847] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:56:58,040] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:57:19,930] Reginas-macbook.local/INFO/locust.main: Got SIGTERM signal
+[2025-10-20 07:57:19,930] Reginas-macbook.local/INFO/locust.main: Shutting down (exit code 1)
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                 4537     1(0.02%) |   1800      73   20203     79 |    8.76        0.00
+GET      /fixed/cart/view                                                                1348     1(0.07%) |   6167      73   40381     79 |    2.60        0.00
+GET      /product/health                                                                   24     0(0.00%) |     88      73     177     79 |    0.05        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      5909     2(0.03%) |   2789      73   40381     79 |   11.40        0.00
+
+Response time percentiles (approximated)
+Type     Name                                                                                  50%    66%    75%    80%    90%    95%    98%    99%  99.9% 99.99%   100% # reqs
+--------|--------------------------------------------------------------------------------|--------|------|------|------|------|------|------|------|------|------|------|------
+POST     /fixed/cart/add                                                                        79     84   4700   5300   6000   6700   7600  12000  18000  20000  20000   4537
+GET      /fixed/cart/view                                                                       79     83   5500  20000  27000  28000  30000  35000  40000  40000  40000   1348
+GET      /product/health                                                                        79     80     85     90    110    160    180    180    180    180    180     24
+--------|--------------------------------------------------------------------------------|--------|------|------|------|------|------|------|------|------|------|------|------
+         Aggregated                                                                             79     83   4700   5400   6500  16000  27000  28000  38000  40000  40000   5909
+
+Error report
+# occurrences      Error                                                                                               
+------------------|---------------------------------------------------------------------------------------------------------------------------------------------
+1                  POST /fixed/cart/add: CatchResponseError('Unexpected status: 502')                                  
+1                  GET /fixed/cart/view: CatchResponseError('Unexpected status: 502')                                  
+------------------|---------------------------------------------------------------------------------------------------------------------------------------------
+
+
+======================================================================
+ CIRCUIT BREAKER PATTERN - LOAD TEST 
+======================================================================
+ Test Mode: FIXED
+ Start Time: 2025-10-20 07:45:11
+ Target Host: http://circuit-breaker-demo-alb-2122719535.us-west-2.elb.amazonaws.com
+======================================================================
+
+ Testing FIXED version - With circuit breaker protection
+ Expect graceful degradation when product service fails
+
+ To trigger failure: curl -X POST http://<product-host>/fail/on
+ To recover service: curl -X POST http://<product-host>/fail/off
+======================================================================
+
+
+======================================================================
+ TEST COMPLETED 
+======================================================================
+ End Time: 2025-10-20 07:48:31
+ Total Requests: 2747
+ Total Failures: 2
+ Failure Rate: 0.07%
+ Median Response Time: 79ms
+ 95%ile Response Time: 6900.0ms
+======================================================================
+
+
+======================================================================
+ CIRCUIT BREAKER PATTERN - LOAD TEST 
+======================================================================
+ Test Mode: FIXED
+ Start Time: 2025-10-20 07:48:41
+ Target Host: http://circuit-breaker-demo-alb-2122719535.us-west-2.elb.amazonaws.com
+======================================================================
+
+ Testing FIXED version - With circuit breaker protection
+ Expect graceful degradation when product service fails
+
+ To trigger failure: curl -X POST http://<product-host>/fail/on
+ To recover service: curl -X POST http://<product-host>/fail/off
+======================================================================
+
+
+======================================================================
+ TEST COMPLETED 
+======================================================================
+ End Time: 2025-10-20 07:57:19
+ Total Requests: 5909
+ Total Failures: 2
+ Failure Rate: 0.03%
+ Median Response Time: 79ms
+ 95%ile Response Time: 16000.0ms
+======================================================================
+

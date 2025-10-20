@@ -1,0 +1,695 @@
+[2025-10-20 07:40:46,935] Reginas-macbook.local/WARNING/locust.main: Python 3.8 support is deprecated and will be removed soon
+[2025-10-20 07:40:46,935] Reginas-macbook.local/WARNING/locust.main: The --autostart argument is implied by --headless, no need to set both.
+[2025-10-20 07:40:46,936] Reginas-macbook.local/INFO/locust.main: Run time limit set to 120 seconds
+[2025-10-20 07:40:46,936] Reginas-macbook.local/INFO/locust.main: Starting Locust 2.25.0
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                         0     0(0.00%) |      0       0       0      0 |    0.00        0.00
+
+[2025-10-20 07:40:46,938] Reginas-macbook.local/INFO/locust.runners: Ramping to 50 users at a rate of 2.00 per second
+[2025-10-20 07:40:46,939] Reginas-macbook.local/INFO/locustfile: User user_49 started - Testing fixed version(s)
+[2025-10-20 07:40:46,940] Reginas-macbook.local/INFO/locustfile: User user_190 started - Testing fixed version(s)
+[2025-10-20 07:40:47,944] Reginas-macbook.local/INFO/locustfile: User user_366 started - Testing fixed version(s)
+[2025-10-20 07:40:47,945] Reginas-macbook.local/INFO/locustfile: User user_211 started - Testing fixed version(s)
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                         0     0(0.00%) |      0       0       0      0 |    0.00        0.00
+
+[2025-10-20 07:40:48,944] Reginas-macbook.local/INFO/locustfile: User user_474 started - Testing fixed version(s)
+[2025-10-20 07:40:48,945] Reginas-macbook.local/INFO/locustfile: User user_765 started - Testing fixed version(s)
+[2025-10-20 07:40:49,946] Reginas-macbook.local/INFO/locustfile: User user_900 started - Testing fixed version(s)
+[2025-10-20 07:40:49,949] Reginas-macbook.local/INFO/locustfile: User user_131 started - Testing fixed version(s)
+[2025-10-20 07:40:50,356] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:40:50,379] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:40:50,887] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                    3     0(0.00%) |   3265    2940    3439   3400 |    0.00        0.00
+GET      /fixed/cart/view                                                                   1     0(0.00%) |   1462    1462    1462   1462 |    0.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                         4     0(0.00%) |   2814    1462    3439   2900 |    0.00        0.00
+
+[2025-10-20 07:40:50,948] Reginas-macbook.local/INFO/locustfile: User user_422 started - Testing fixed version(s)
+[2025-10-20 07:40:50,949] Reginas-macbook.local/INFO/locustfile: User user_336 started - Testing fixed version(s)
+[2025-10-20 07:40:51,951] Reginas-macbook.local/WARNING/locustfile: Admin user initialized - Can control product service state
+[2025-10-20 07:40:51,952] Reginas-macbook.local/INFO/locustfile: User user_976 started - Testing fixed version(s)
+[2025-10-20 07:40:52,062] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                    4     0(0.00%) |   3228    2940    3439   3100 |    0.00        0.00
+GET      /fixed/cart/view                                                                   2     0(0.00%) |   1288    1114    1462   1114 |    0.25        0.00
+GET      /product/health                                                                    1     0(0.00%) |    162     162     162    162 |    0.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                         7     0(0.00%) |   2236     162    3439   2900 |    0.25        0.00
+
+[2025-10-20 07:40:52,953] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:40:52,954] Reginas-macbook.local/INFO/locustfile: User user_837 started - Testing fixed version(s)
+[2025-10-20 07:40:52,955] Reginas-macbook.local/INFO/locustfile: User user_263 started - Testing fixed version(s)
+[2025-10-20 07:40:53,960] Reginas-macbook.local/INFO/locustfile: User user_692 started - Testing fixed version(s)
+[2025-10-20 07:40:53,961] Reginas-macbook.local/INFO/locustfile: User user_843 started - Testing fixed version(s)
+[2025-10-20 07:40:53,965] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:40:54,157] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:40:54,464] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:40:54,565] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:40:54,763] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                   14     0(0.00%) |   3355    1938    4207   3400 |    0.50        0.00
+GET      /fixed/cart/view                                                                   3     0(0.00%) |    960     303    1462   1100 |    0.17        0.00
+GET      /product/health                                                                    1     0(0.00%) |    162     162     162    162 |    0.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                        18     0(0.00%) |   2779     162    4207   3100 |    0.67        0.00
+
+[2025-10-20 07:40:54,953] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:40:54,962] Reginas-macbook.local/INFO/locustfile: User user_632 started - Testing fixed version(s)
+[2025-10-20 07:40:54,964] Reginas-macbook.local/INFO/locustfile: User user_850 started - Testing fixed version(s)
+[2025-10-20 07:40:55,060] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:40:55,962] Reginas-macbook.local/INFO/locustfile: User user_282 started - Testing fixed version(s)
+[2025-10-20 07:40:55,963] Reginas-macbook.local/INFO/locustfile: User user_833 started - Testing fixed version(s)
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                   16     0(0.00%) |   3192    1938    4207   3400 |    0.75        0.00
+GET      /fixed/cart/view                                                                   4     0(0.00%) |   1366     303    2583   1100 |    0.25        0.00
+GET      /product/health                                                                    1     0(0.00%) |    162     162     162    162 |    0.12        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                        21     0(0.00%) |   2700     162    4207   2900 |    1.12        0.00
+
+[2025-10-20 07:40:56,963] Reginas-macbook.local/INFO/locustfile: User user_843 started - Testing fixed version(s)
+[2025-10-20 07:40:56,963] Reginas-macbook.local/INFO/locustfile: User user_117 started - Testing fixed version(s)
+[2025-10-20 07:40:57,969] Reginas-macbook.local/INFO/locustfile: User user_340 started - Testing fixed version(s)
+[2025-10-20 07:40:57,970] Reginas-macbook.local/INFO/locustfile: User user_504 started - Testing fixed version(s)
+[2025-10-20 07:40:58,079] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:40:58,421] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                   18     0(0.00%) |   3309    1938    4364   3400 |    1.60        0.00
+GET      /fixed/cart/view                                                                   5     0(0.00%) |   1584     303    2583   1500 |    0.30        0.00
+GET      /product/health                                                                    1     0(0.00%) |    162     162     162    162 |    0.10        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                        24     0(0.00%) |   2818     162    4364   2900 |    2.00        0.00
+
+[2025-10-20 07:40:58,970] Reginas-macbook.local/INFO/locustfile: User user_654 started - Testing fixed version(s)
+[2025-10-20 07:40:58,972] Reginas-macbook.local/INFO/locustfile: User user_762 started - Testing fixed version(s)
+[2025-10-20 07:40:59,396] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:40:59,397] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:40:59,472] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:40:59,472] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:40:59,569] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:40:59,571] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:40:59,572] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:40:59,655] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:40:59,655] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:40:59,656] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:40:59,661] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:40:59,661] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:40:59,669] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:40:59,753] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:40:59,754] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:40:59,755] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:40:59,755] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:40:59,755] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:40:59,755] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:40:59,973] Reginas-macbook.local/INFO/locustfile: User user_335 started - Testing fixed version(s)
+[2025-10-20 07:40:59,974] Reginas-macbook.local/INFO/locustfile: User user_848 started - Testing fixed version(s)
+[2025-10-20 07:41:00,047] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:41:00,131] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:41:00,498] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:41:00,879] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:41:00,920] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:41:00,958] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                   53     0(0.00%) |   2209      75    4576   2800 |    1.60        0.00
+GET      /fixed/cart/view                                                                  13     0(0.00%) |   1798      77    4280   1500 |    0.40        0.00
+GET      /product/health                                                                    1     0(0.00%) |    162     162     162    162 |    0.10        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                        67     0(0.00%) |   2099      75    4576   2400 |    2.10        0.00
+
+[2025-10-20 07:41:00,975] Reginas-macbook.local/INFO/locustfile: User user_790 started - Testing fixed version(s)
+[2025-10-20 07:41:00,976] Reginas-macbook.local/INFO/locustfile: User user_195 started - Testing fixed version(s)
+[2025-10-20 07:41:01,061] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:41:01,139] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:41:01,982] Reginas-macbook.local/WARNING/locustfile: Admin user initialized - Can control product service state
+[2025-10-20 07:41:01,985] Reginas-macbook.local/INFO/locustfile: User user_347 started - Testing fixed version(s)
+[2025-10-20 07:41:02,148] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:41:02,152] Reginas-macbook.local/ERROR/locustfile: ⚠️ PRODUCT SERVICE IS UNHEALTHY!
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                   84     0(0.00%) |   1427      75    4576     93 |    3.70        0.00
+GET      /fixed/cart/view                                                                  26     0(0.00%) |    942      75    4280     90 |    0.90        0.00
+GET      /product/health                                                                    2    1(50.00%) |    165     162     167    162 |    0.10        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       112     1(0.89%) |   1292      75    4576     93 |    4.70        0.00
+
+[2025-10-20 07:41:03,034] Reginas-macbook.local/INFO/locustfile: User user_698 started - Testing fixed version(s)
+[2025-10-20 07:41:03,034] Reginas-macbook.local/INFO/locustfile: User user_530 started - Testing fixed version(s)
+[2025-10-20 07:41:03,267] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:41:03,271] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:41:03,523] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:41:04,370] Reginas-macbook.local/INFO/locustfile: User user_488 started - Testing fixed version(s)
+[2025-10-20 07:41:04,374] Reginas-macbook.local/INFO/locustfile: User user_180 started - Testing fixed version(s)
+[2025-10-20 07:41:04,559] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:41:04,562] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  128     0(0.00%) |    975      75    4576     93 |    6.60        0.00
+GET      /fixed/cart/view                                                                  33     0(0.00%) |    773      75    4280     94 |    2.10        0.00
+GET      /product/health                                                                    2    1(50.00%) |    165     162     167    162 |    0.10        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       163     1(0.61%) |    925      75    4576     94 |    8.80        0.00
+
+[2025-10-20 07:41:05,151] Reginas-macbook.local/INFO/locustfile: User user_748 started - Testing fixed version(s)
+[2025-10-20 07:41:05,152] Reginas-macbook.local/INFO/locustfile: User user_295 started - Testing fixed version(s)
+[2025-10-20 07:41:05,293] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:41:05,308] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:41:05,313] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:41:06,153] Reginas-macbook.local/INFO/locustfile: User user_525 started - Testing fixed version(s)
+[2025-10-20 07:41:06,155] Reginas-macbook.local/INFO/locustfile: User user_586 started - Testing fixed version(s)
+[2025-10-20 07:41:06,309] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:41:06,309] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  172     0(0.00%) |    748      74    4576     84 |    9.80        0.00
+GET      /fixed/cart/view                                                                  45     0(0.00%) |    588      74    4280     82 |    2.70        0.00
+GET      /product/health                                                                    2    1(50.00%) |    165     162     167    162 |    0.10        0.10
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       219     1(0.46%) |    709      74    4576     84 |   12.60        0.10
+
+[2025-10-20 07:41:07,153] Reginas-macbook.local/INFO/locustfile: User user_60 started - Testing fixed version(s)
+[2025-10-20 07:41:07,154] Reginas-macbook.local/INFO/locustfile: User user_711 started - Testing fixed version(s)
+[2025-10-20 07:41:07,310] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:41:07,310] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:41:08,158] Reginas-macbook.local/INFO/locustfile: User user_229 started - Testing fixed version(s)
+[2025-10-20 07:41:08,159] Reginas-macbook.local/INFO/locustfile: User user_16 started - Testing fixed version(s)
+[2025-10-20 07:41:08,316] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:41:08,317] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  211     0(0.00%) |    625      74    4576     80 |   13.40        0.00
+GET      /fixed/cart/view                                                                  64     0(0.00%) |    436      73    4280     78 |    3.40        0.00
+GET      /product/health                                                                    2    1(50.00%) |    165     162     167    162 |    0.10        0.10
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       277     1(0.36%) |    578      73    4576     79 |   16.90        0.10
+
+[2025-10-20 07:41:09,160] Reginas-macbook.local/INFO/locustfile: User user_728 started - Testing fixed version(s)
+[2025-10-20 07:41:09,160] Reginas-macbook.local/INFO/locustfile: User user_182 started - Testing fixed version(s)
+[2025-10-20 07:41:09,316] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:41:10,163] Reginas-macbook.local/INFO/locustfile: User user_296 started - Testing fixed version(s)
+[2025-10-20 07:41:10,164] Reginas-macbook.local/INFO/locustfile: User user_550 started - Testing fixed version(s)
+[2025-10-20 07:41:10,322] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:41:10,323] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:41:10,626] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  272     0(0.00%) |    503      74    4576     79 |   17.90        0.00
+GET      /fixed/cart/view                                                                  78     0(0.00%) |    373      73    4280     78 |    5.40        0.00
+GET      /product/health                                                                    2    1(50.00%) |    165     162     167    162 |    0.10        0.10
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       352     1(0.28%) |    473      73    4576     79 |   23.40        0.10
+
+[2025-10-20 07:41:11,165] Reginas-macbook.local/INFO/locust.runners: All users spawned: {"AdminUser": 2, "EcommerceUser": 48} (50 total users)
+[2025-10-20 07:41:11,165] Reginas-macbook.local/INFO/locustfile: User user_593 started - Testing fixed version(s)
+[2025-10-20 07:41:11,166] Reginas-macbook.local/INFO/locustfile: User user_907 started - Testing fixed version(s)
+[2025-10-20 07:41:11,326] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+[2025-10-20 07:41:11,330] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: OPEN
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  331     0(0.00%) |    428      74    4576     79 |   21.80        0.00
+GET      /fixed/cart/view                                                                  96     0(0.00%) |    318      73    4280     78 |    6.50        0.00
+GET      /product/health                                                                    2    1(50.00%) |    165     162     167    162 |    0.10        0.10
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       429     1(0.23%) |    402      73    4576     79 |   28.40        0.10
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  385     0(0.00%) |    379      74    4576     79 |   24.60        0.00
+GET      /fixed/cart/view                                                                 120     0(0.00%) |    270      73    4280     78 |    6.90        0.00
+GET      /product/health                                                                    2    1(50.00%) |    165     162     167    162 |    0.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       507     1(0.20%) |    352      73    4576     79 |   31.50        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  435     0(0.00%) |    345      74    4576     79 |   25.60        0.00
+GET      /fixed/cart/view                                                                 140     0(0.00%) |    243      73    4280     78 |    8.70        0.00
+GET      /product/health                                                                    2    1(50.00%) |    165     162     167    162 |    0.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       577     1(0.17%) |    319      73    4576     79 |   34.30        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  493     0(0.00%) |    313      74    4576     79 |   26.00        0.00
+GET      /fixed/cart/view                                                                 154     0(0.00%) |    228      73    4280     78 |    9.30        0.00
+GET      /product/health                                                                    2    1(50.00%) |    165     162     167    162 |    0.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       649     1(0.15%) |    293      73    4576     79 |   35.30        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  551     0(0.00%) |    289      74    4576     79 |   27.00        0.00
+GET      /fixed/cart/view                                                                 168     0(0.00%) |    215      73    4280     78 |    9.10        0.00
+GET      /product/health                                                                    2    1(50.00%) |    165     162     167    162 |    0.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       721     1(0.14%) |    271      73    4576     78 |   36.10        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  603     0(0.00%) |    271      74    4576     79 |   28.30        0.00
+GET      /fixed/cart/view                                                                 191     0(0.00%) |    199      73    4280     78 |    8.90        0.00
+GET      /product/health                                                                    2    1(50.00%) |    165     162     167    162 |    0.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       796     1(0.13%) |    253      73    4576     78 |   37.20        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  655     0(0.00%) |    255      74    4576     78 |   27.30        0.00
+GET      /fixed/cart/view                                                                 213     0(0.00%) |    186      73    4280     78 |    9.60        0.00
+GET      /product/health                                                                    2    1(50.00%) |    165     162     167    162 |    0.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       870     1(0.11%) |    238      73    4576     78 |   36.90        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  710     0(0.00%) |    241      74    4576     78 |   26.90        0.00
+GET      /fixed/cart/view                                                                 226     0(0.00%) |    180      73    4280     78 |    9.20        0.00
+GET      /product/health                                                                    2    1(50.00%) |    165     162     167    162 |    0.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       938     1(0.11%) |    227      73    4576     78 |   36.10        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  773     0(0.00%) |    228      74    4576     78 |   27.20        0.00
+GET      /fixed/cart/view                                                                 241     0(0.00%) |    174      73    4280     78 |    8.70        0.00
+GET      /product/health                                                                    2    1(50.00%) |    165     162     167    162 |    0.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1016     1(0.10%) |    215      73    4576     78 |   35.90        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  794     0(0.00%) |    224      74    4576     78 |   27.20        0.00
+GET      /fixed/cart/view                                                                 247     0(0.00%) |    172      73    4280     78 |    8.70        0.00
+GET      /product/health                                                                    3    1(33.33%) |    135      77     167    160 |    0.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1044     1(0.10%) |    212      73    4576     78 |   35.90        0.00
+
+[2025-10-20 07:41:31,377] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: HALF_OPEN
+[2025-10-20 07:41:31,751] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:41:32,060] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:41:32,256] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:41:32,956] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  799     0(0.00%) |    237      74    4576     78 |   26.70        0.00
+GET      /fixed/cart/view                                                                 247     0(0.00%) |    172      73    4280     78 |    8.50        0.00
+GET      /product/health                                                                    3    1(33.33%) |    135      77     167    160 |    0.10        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1049     1(0.10%) |    222      73    4576     78 |   35.30        0.00
+
+[2025-10-20 07:41:33,762] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:41:34,058] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:41:34,157] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:41:34,663] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  803     0(0.00%) |    255      74    4663     78 |   22.40        0.00
+GET      /fixed/cart/view                                                                 247     0(0.00%) |    172      73    4280     78 |    6.40        0.00
+GET      /product/health                                                                    3    1(33.33%) |    135      77     167    160 |    0.10        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1053     1(0.09%) |    235      73    4663     78 |   28.90        0.00
+
+[2025-10-20 07:41:35,277] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:41:35,756] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:41:35,974] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:41:36,282] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:41:36,561] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  810     0(0.00%) |    297      74    6442     78 |   17.30        0.00
+GET      /fixed/cart/view                                                                 247     0(0.00%) |    172      73    4280     78 |    4.60        0.00
+GET      /product/health                                                                    3    1(33.33%) |    135      77     167    160 |    0.10        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1060     1(0.09%) |    268      73    6442     78 |   22.00        0.00
+
+[2025-10-20 07:41:37,876] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  811     0(0.00%) |    307      74    7687     78 |   15.00        0.00
+GET      /fixed/cart/view                                                                 247     0(0.00%) |    172      73    4280     78 |    3.50        0.00
+GET      /product/health                                                                    3    1(33.33%) |    135      77     167    160 |    0.10        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1061     1(0.09%) |    275      73    7687     78 |   18.60        0.00
+
+[2025-10-20 07:41:40,072] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:41:40,279] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:41:40,377] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:41:40,656] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:41:40,957] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  819     0(0.00%) |    381      74   10519     78 |    7.50        0.00
+GET      /fixed/cart/view                                                                 247     0(0.00%) |    172      73    4280     78 |    1.30        0.00
+GET      /product/health                                                                    3    1(33.33%) |    135      77     167    160 |    0.10        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1069     1(0.09%) |    332      73   10519     78 |    8.90        0.00
+
+[2025-10-20 07:41:41,169] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:41:41,381] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:41:42,154] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:41:42,765] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  824     0(0.00%) |    440      74   12175     78 |    1.80        0.00
+GET      /fixed/cart/view                                                                 247     0(0.00%) |    172      73    4280     78 |    0.00        0.00
+GET      /product/health                                                                    3    1(33.33%) |    135      77     167    160 |    0.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1074     1(0.09%) |    377      73   12175     78 |    1.80        0.00
+
+[2025-10-20 07:41:43,157] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:41:43,371] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:41:43,864] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:41:44,373] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:41:44,657] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  833     0(0.00%) |    539      74   13988     78 |    2.60        0.00
+GET      /fixed/cart/view                                                                 248     0(0.00%) |    227      73   14012     78 |    0.00        0.00
+GET      /product/health                                                                    3    1(33.33%) |    135      77     167    160 |    0.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1084     1(0.09%) |    467      73   14012     78 |    2.60        0.00
+
+[2025-10-20 07:41:45,658] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:41:46,652] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:41:46,956] Reginas-macbook.local/INFO/locustfile: ✅ Product service has recovered
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  836     0(0.00%) |    581      74   15897     78 |    3.00        0.00
+GET      /fixed/cart/view                                                                 249     0(0.00%) |    295      73   17065     78 |    0.10        0.00
+GET      /product/health                                                                    4    1(25.00%) |    121      77     167     78 |    0.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1089     1(0.09%) |    514      73   17065     78 |    3.10        0.00
+
+[2025-10-20 07:41:47,473] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:41:48,074] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:41:48,280] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:41:48,874] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  846     0(0.00%) |    698      74   17706     79 |    2.80        0.00
+GET      /fixed/cart/view                                                                 250     0(0.00%) |    365      73   17685     78 |    0.10        0.00
+GET      /product/health                                                                    4    1(25.00%) |    121      77     167     78 |    0.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1100     1(0.09%) |    620      73   17706     78 |    2.90        0.00
+
+[2025-10-20 07:41:49,568] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:41:49,568] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:41:50,084] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:41:50,674] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  856     0(0.00%) |    797      74   18366     79 |    2.90        0.00
+GET      /fixed/cart/view                                                                 250     0(0.00%) |    365      73   17685     78 |    0.30        0.00
+GET      /product/health                                                                    4    1(25.00%) |    121      77     167     78 |    0.10        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1110     1(0.09%) |    697      73   18366     78 |    3.30        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  856     0(0.00%) |    797      74   18366     79 |    3.90        0.00
+GET      /fixed/cart/view                                                                 253     0(0.00%) |    608      73   22665     78 |    0.30        0.00
+GET      /product/health                                                                    4    1(25.00%) |    121      77     167     78 |    0.10        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1113     1(0.09%) |    751      73   22665     79 |    4.30        0.00
+
+[2025-10-20 07:41:54,652] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:41:54,770] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  866     0(0.00%) |    854      74   18366     79 |    3.20        0.00
+GET      /fixed/cart/view                                                                 255     0(0.00%) |    784      73   24305     78 |    0.60        0.00
+GET      /product/health                                                                    4    1(25.00%) |    121      77     167     78 |    0.10        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1125     1(0.09%) |    836      73   24305     79 |    3.90        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  873     0(0.00%) |    895      74   18366     79 |    3.30        0.00
+GET      /fixed/cart/view                                                                 255     0(0.00%) |    784      73   24305     78 |    0.60        0.00
+GET      /product/health                                                                    4    1(25.00%) |    121      77     167     78 |    0.10        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1132     1(0.09%) |    867      73   24305     79 |    4.00        0.00
+
+[2025-10-20 07:41:57,680] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  876     0(0.00%) |    910      74   18366     79 |    3.30        0.00
+GET      /fixed/cart/view                                                                 256     0(0.00%) |    873      73   24305     78 |    0.60        0.00
+GET      /product/health                                                                    4    1(25.00%) |    121      77     167     78 |    0.10        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1136     1(0.09%) |    899      73   24305     79 |    4.00        0.00
+
+[2025-10-20 07:42:00,359] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  877     0(0.00%) |    916      74   18366     79 |    3.60        0.00
+GET      /fixed/cart/view                                                                 258     0(0.00%) |   1080      73   30182     78 |    0.60        0.00
+GET      /product/health                                                                    5    1(20.00%) |    112      77     167     78 |    0.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1140     1(0.09%) |    950      73   30182     79 |    4.20        0.00
+
+[2025-10-20 07:42:01,563] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  888     0(0.00%) |    976      74   18366     79 |    2.50        0.00
+GET      /fixed/cart/view                                                                 261     0(0.00%) |   1399      73   31245     78 |    0.60        0.00
+GET      /product/health                                                                    5    1(20.00%) |    112      77     167     78 |    0.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1154     1(0.09%) |   1068      73   31245     79 |    3.10        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  889     0(0.00%) |    981      74   18366     79 |    2.10        0.00
+GET      /fixed/cart/view                                                                 263     0(0.00%) |   1613      73   33038     78 |    0.80        0.00
+GET      /product/health                                                                    5    1(20.00%) |    112      77     167     78 |    0.10        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1157     1(0.09%) |   1121      73   33038     79 |    3.00        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  892     0(0.00%) |   1002      74   18366     79 |    3.20        0.00
+GET      /fixed/cart/view                                                                 263     0(0.00%) |   1613      73   33038     78 |    1.00        0.00
+GET      /product/health                                                                    5    1(20.00%) |    112      77     167     78 |    0.10        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1160     1(0.09%) |   1137      73   33038     79 |    4.30        0.00
+
+[2025-10-20 07:42:08,731] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+[2025-10-20 07:42:08,731] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  898     0(0.00%) |   1040      74   18366     79 |    2.30        0.00
+GET      /fixed/cart/view                                                                 265     0(0.00%) |   1786      73   33038     78 |    0.80        0.00
+GET      /product/health                                                                    5    1(20.00%) |    112      77     167     78 |    0.10        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1168     1(0.09%) |   1205      73   33038     79 |    3.20        0.00
+
+[2025-10-20 07:42:09,395] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  906     0(0.00%) |   1084      74   18366     79 |    2.30        0.00
+GET      /fixed/cart/view                                                                 268     0(0.00%) |   2076      73   33038     79 |    0.80        0.00
+GET      /product/health                                                                    5    1(20.00%) |    112      77     167     78 |    0.10        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1179     1(0.08%) |   1305      73   33038     79 |    3.20        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  909     0(0.00%) |   1102      74   18366     79 |    3.00        0.00
+GET      /fixed/cart/view                                                                 273     0(0.00%) |   2590      73   40795     79 |    1.20        0.00
+GET      /product/health                                                                    5    1(20.00%) |    112      77     167     78 |    0.10        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1187     1(0.08%) |   1440      73   40795     79 |    4.30        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  911     0(0.00%) |   1113      74   18366     79 |    2.90        0.00
+GET      /fixed/cart/view                                                                 274     0(0.00%) |   2680      73   40795     79 |    1.00        0.00
+GET      /product/health                                                                    5    1(20.00%) |    112      77     167     78 |    0.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1190     1(0.08%) |   1469      73   40795     79 |    3.90        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  924     0(0.00%) |   1181      74   18366     79 |    2.10        0.00
+GET      /fixed/cart/view                                                                 277     0(0.00%) |   2923      73   40795     79 |    1.10        0.00
+GET      /product/health                                                                    5    1(20.00%) |    112      77     167     78 |    0.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1206     1(0.08%) |   1577      73   40795     79 |    3.20        0.00
+
+[2025-10-20 07:42:18,174] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  930     0(0.00%) |   1208      74   18366     79 |    2.60        0.00
+GET      /fixed/cart/view                                                                 281     0(0.00%) |   3249      73   40795     79 |    1.40        0.00
+GET      /product/health                                                                    6    1(16.67%) |    107      77     167     78 |    0.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1217     1(0.08%) |   1674      73   40795     79 |    4.00        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  932     0(0.00%) |   1218      74   18366     79 |    3.30        0.00
+GET      /fixed/cart/view                                                                 281     0(0.00%) |   3249      73   40795     79 |    1.60        0.00
+GET      /product/health                                                                    6    1(16.67%) |    107      77     167     78 |    0.10        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1219     1(0.08%) |   1681      73   40795     79 |    5.00        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  940     0(0.00%) |   1254      74   18366     79 |    2.50        0.00
+GET      /fixed/cart/view                                                                 283     0(0.00%) |   3417      73   40795     79 |    1.30        0.00
+GET      /product/health                                                                    6    1(16.67%) |    107      77     167     78 |    0.10        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1229     1(0.08%) |   1747      73   40795     79 |    3.90        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  945     0(0.00%) |   1274      74   18366     79 |    2.40        0.00
+GET      /fixed/cart/view                                                                 285     0(0.00%) |   3574      73   40795     79 |    1.10        0.00
+GET      /product/health                                                                    6    1(16.67%) |    107      77     167     78 |    0.10        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1236     1(0.08%) |   1799      73   40795     79 |    3.60        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  952     0(0.00%) |   1306      74   18366     79 |    2.70        0.00
+GET      /fixed/cart/view                                                                 288     0(0.00%) |   3815      73   40795     79 |    0.80        0.00
+GET      /product/health                                                                    6    1(16.67%) |    107      77     167     78 |    0.10        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1246     1(0.08%) |   1880      73   40795     79 |    3.60        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  954     0(0.00%) |   1316      74   18366     79 |    2.80        0.00
+GET      /fixed/cart/view                                                                 289     0(0.00%) |   3896      73   40795     79 |    1.10        0.00
+GET      /product/health                                                                    6    1(16.67%) |    107      77     167     78 |    0.10        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1249     1(0.08%) |   1907      73   40795     79 |    4.00        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  976     0(0.00%) |   1397      74   18366     79 |    2.70        0.00
+GET      /fixed/cart/view                                                                 291     0(0.00%) |   4042      73   40795     79 |    1.10        0.00
+GET      /product/health                                                                    6    1(16.67%) |    107      77     167     78 |    0.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1273     1(0.08%) |   1996      73   40795     79 |    3.80        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  978     0(0.00%) |   1403      74   18366     79 |    2.40        0.00
+GET      /fixed/cart/view                                                                 291     0(0.00%) |   4042      73   40795     79 |    0.70        0.00
+GET      /product/health                                                                    6    1(16.67%) |    107      77     167     78 |    0.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1275     1(0.08%) |   1999      73   40795     79 |    3.10        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  978     0(0.00%) |   1403      74   18366     79 |    4.50        0.00
+GET      /fixed/cart/view                                                                 292     0(0.00%) |   4123      73   40795     79 |    1.00        0.00
+GET      /product/health                                                                    6    1(16.67%) |    107      77     167     78 |    0.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1276     1(0.08%) |   2019      73   40795     79 |    5.50        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                  978     0(0.00%) |   1403      74   18366     79 |    3.30        0.00
+GET      /fixed/cart/view                                                                 296     0(0.00%) |   4421      73   40795     79 |    0.70        0.00
+GET      /product/health                                                                    6    1(16.67%) |    107      77     167     78 |    0.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1280     1(0.08%) |   2095      73   40795     79 |    4.00        0.00
+
+[2025-10-20 07:42:37,564] Reginas-macbook.local/INFO/locustfile: Circuit Breaker State: CLOSED
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                 1005     0(0.00%) |   1538      74   18366     79 |    2.60        0.00
+GET      /fixed/cart/view                                                                 299     0(0.00%) |   4626      73   40795     79 |    0.40        0.00
+GET      /product/health                                                                    6    1(16.67%) |    107      77     167     78 |    0.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1310     1(0.08%) |   2236      73   40795     79 |    3.00        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                 1005     0(0.00%) |   1538      74   18366     79 |    2.60        0.00
+GET      /fixed/cart/view                                                                 299     0(0.00%) |   4626      73   40795     79 |    0.40        0.00
+GET      /product/health                                                                    6    1(16.67%) |    107      77     167     78 |    0.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1310     1(0.08%) |   2236      73   40795     79 |    3.00        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                 1006     0(0.00%) |   1544      74   18366     79 |    4.20        0.00
+GET      /fixed/cart/view                                                                 302     0(0.00%) |   4856      73   40795     79 |    1.00        0.00
+GET      /product/health                                                                    6    1(16.67%) |    107      77     167     78 |    0.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1314     1(0.08%) |   2298      73   40795     79 |    5.20        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                 1033     0(0.00%) |   1651      74   18366     79 |    2.80        0.00
+GET      /fixed/cart/view                                                                 306     0(0.00%) |   5144      73   40795     79 |    1.10        0.00
+GET      /product/health                                                                    6    1(16.67%) |    107      77     167     78 |    0.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1345     1(0.07%) |   2439      73   40795     79 |    3.90        0.00
+
+[2025-10-20 07:42:46,751] Reginas-macbook.local/INFO/locust.main: --run-time limit reached, shutting down
+[2025-10-20 07:42:46,791] Reginas-macbook.local/INFO/locust.main: Shutting down (exit code 1)
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /fixed/cart/add                                                                 1033     0(0.00%) |   1651      74   18366     79 |    8.74        0.00
+GET      /fixed/cart/view                                                                 306     0(0.00%) |   5144      73   40795     79 |    2.59        0.00
+GET      /product/health                                                                    6    1(16.67%) |    107      77     167     78 |    0.05        0.01
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1345     1(0.07%) |   2439      73   40795     79 |   11.38        0.01
+
+Response time percentiles (approximated)
+Type     Name                                                                                  50%    66%    75%    80%    90%    95%    98%    99%  99.9% 99.99%   100% # reqs
+--------|--------------------------------------------------------------------------------|--------|------|------|------|------|------|------|------|------|------|------|------
+POST     /fixed/cart/add                                                                        79     88   2800   5000   5900   6400  10000  14000  18000  18000  18000   1033
+GET      /fixed/cart/view                                                                       79     82    120   3400  27000  27000  28000  30000  41000  41000  41000    306
+GET      /product/health                                                                        79     79    160    160    170    170    170    170    170    170    170      6
+--------|--------------------------------------------------------------------------------|--------|------|------|------|------|------|------|------|------|------|------|------
+         Aggregated                                                                             79     85   1700   4800   6200  14000  27000  27000  33000  41000  41000   1345
+
+Error report
+# occurrences      Error                                                                                               
+------------------|---------------------------------------------------------------------------------------------------------------------------------------------
+1                  GET /product/health: HTTPError('503 Server Error: Service Unavailable for url: /product/health')    
+------------------|---------------------------------------------------------------------------------------------------------------------------------------------
+
+
+======================================================================
+ CIRCUIT BREAKER PATTERN - LOAD TEST 
+======================================================================
+ Test Mode: FIXED
+ Start Time: 2025-10-20 07:40:46
+ Target Host: http://circuit-breaker-demo-alb-2122719535.us-west-2.elb.amazonaws.com
+======================================================================
+
+ Testing FIXED version - With circuit breaker protection
+ Expect graceful degradation when product service fails
+
+ To trigger failure: curl -X POST http://<product-host>/fail/on
+ To recover service: curl -X POST http://<product-host>/fail/off
+======================================================================
+
+
+======================================================================
+ TEST COMPLETED 
+======================================================================
+ End Time: 2025-10-20 07:42:46
+ Total Requests: 1345
+ Total Failures: 1
+ Failure Rate: 0.07%
+ Median Response Time: 79ms
+ 95%ile Response Time: 14000.0ms
+======================================================================
+

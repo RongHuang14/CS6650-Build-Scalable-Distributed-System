@@ -1,0 +1,5 @@
+>> Failure ON (15s)
+{"message":"Failure enabled"}>> Failure OFF (20s)
+{"message":"Failure disabled"}>> Failure ON (10s)
+{"message":"Failure enabled"}>> Failure OFF
+{"message":"Failure disabled"}→ Injection sequence completed
