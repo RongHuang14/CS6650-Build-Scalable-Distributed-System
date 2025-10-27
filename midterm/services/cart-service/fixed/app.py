@@ -51,14 +51,17 @@ async def fetch_product_with_circuit_breaker(product_id: str) -> Optional[Dict]:
             raise httpx.RequestError(f"Product service returned {response.status_code}")
     
     try:
+        # Layer 1: Try to fetch fresh data from product service
         product = await _fetch()
-        # Update cache on successful fetch
+        # Success: Update cache with fresh data for future fallback use
         product_cache[product_id] = product
         cache_timestamps[product_id] = time.time()
         return product
     except Exception as e:
-        # Circuit is open or request failed
-        # Try to use cached data
+        # Service is down or circuit breaker is open
+        
+        # Layer 2: Fallback to cached data if available
+        # This provides stale but usable data to maintain partial functionality
         if product_id in product_cache:
             cache_age = time.time() - cache_timestamps.get(product_id, 0)
             return {
@@ -89,7 +92,9 @@ async def add_to_cart(user_id: str, item: CartItem):
     product = await fetch_product_with_circuit_breaker(item.product_id)
     
     if product is None:
-        # Graceful degradation - allow adding to cart with limited info
+        # Layer 3: Survival Mode - Product service completely unavailable
+        # Strategy: Allow core business function (adding to cart) to continue
+        # Trade-off: Sacrifice pricing accuracy for availability
         cart_item = {
             "product_id": item.product_id,
             "product_name": f"Product {item.product_id}",
@@ -146,21 +151,27 @@ async def get_cart(user_id: str):
         product = await fetch_product_with_circuit_breaker(item["product_id"])
         
         if product:
-            # Update with fresh/cached data
+            # Layer 1 or 2: Successfully retrieved product data (fresh or cached)
+            # Update item with best available information
             item["price"] = product["price"]
             item["subtotal"] = product["price"] * item["quantity"]
             item["product_name"] = product["name"]
             item["data_freshness"] = "cached" if product.get("cached") else "live"
             if product.get("cached"):
+                # Layer 2: Using cached data - mark as degraded mode
                 item["cache_age"] = product.get("cache_age_seconds", 0)
                 degraded_mode = True
         else:
-            # Product service completely unavailable
+            # Layer 3: No product data available at all
+            # Maintain cart integrity but acknowledge data limitations
             item["data_freshness"] = "unavailable"
             item["message"] = "Price information temporarily unavailable"
             degraded_mode = True
         
         updated_items.append(item)
+
+        # Calculate total only for items with valid prices
+        # This prevents incorrect totals during degraded operation
         if item.get("price", 0) > 0:
             total += item["subtotal"]
     
@@ -200,7 +211,6 @@ async def get_metrics():
     }
 
 @app.post("/circuit-breaker/reset")
-@app.post("/fixed/circuit-breaker/reset")
 async def reset_circuit_breaker():
     """Manually reset the circuit breaker for demo purposes"""
     circuit_breaker.reset()

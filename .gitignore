@@ -24,6 +24,7 @@ env/
 # Test reports and logs
 *.html
 *.log
+*.csv
 reports/
 test-results/
 

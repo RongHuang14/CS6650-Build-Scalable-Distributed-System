@@ -17,10 +17,10 @@ class CircuitBreakerError(Exception):
 class CircuitBreaker:
     def __init__(
         self,
-        failure_threshold: int = 5,
-        recovery_timeout: int = 60,
+        failure_threshold: int = 5, # Open after 5 failures
+        recovery_timeout: int = 60, # Try recovery after 60 seconds
         expected_exception: Type[Exception] = Exception,
-        success_threshold: int = 2
+        success_threshold: int = 2 # Need 2 successes to close
     ):
         """
         Initialize Circuit Breaker
