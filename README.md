@@ -92,7 +92,7 @@ terraform destroy
 
 **Institution**: Northeastern University  
 **Course**: CS6650 - Building Scalable Distributed Systems  
-**Semester**: Fall 2024
+**Semester**: Fall 2025
 
 ---
 
