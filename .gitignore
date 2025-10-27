@@ -7,9 +7,35 @@ terraform.tfvars
 
 # Go build output
 /server
+*.exe
+*.out
+*.test
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv
+
+# Test reports and logs
+*.html
+*.log
+reports/
+test-results/
 
 # macOS system files
 .DS_Store
 
 # Binary installers or packages
 *.pkg
+*.zip
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
